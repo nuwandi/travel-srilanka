@@ -11,7 +11,8 @@ module.exports = {
       'www.viinz.com',
       'capitalwindkalpitiya.com',
       'upload.wikimedia.org',
-      'cdn-imgix.headout.com'
+      'cdn-imgix.headout.com',
+      'images.squarespace-cdn.com'
 
     ],
   },

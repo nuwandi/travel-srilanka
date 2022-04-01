@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 11px;
+}
+
+.pagination li a {
+  border: 1px solid #fe595e;
+  color: #fe595e;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 20px;
+}
+
+.pagination li.disabled a {
+  background-color: lightgrey;
+  color: gray;
+  border-color: lightgrey;
+  pointer-events: none;
+}
+
+.pagination li.active a {
+  background-color: #fe595e;
+  color: white;
+}

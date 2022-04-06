@@ -32,9 +32,9 @@ function Header() {
 
   return (
     <div className={`sticky top-0 z-50 ${y === 0 ? "bg-transparent" : "bg-white shadow-md"} p-5 md:px-10 transition duration-200 ease-out`}>
-      <div className='max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 md:px-6'>
+      <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 md:px-6'>
         <div 
-          className={`flex items-center cursor-pointer my-auto uppercase font-extrabold text-lg text-red-400`} 
+          className={`flex items-center cursor-pointer my-auto uppercase font-extrabold text-lg text-red-400 justify-center md:justify-start`} 
           onClick={() => router.push('/')}
         >
             <span className='font-light'>Travel </span> Sri Lanka
